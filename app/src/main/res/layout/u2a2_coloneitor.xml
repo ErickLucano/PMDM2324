@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ut02.u2a2Coloneitor">
+
+    <TextView
+        android:id="@+id/u2a2Txtmuestra"
+        android:layout_width="246dp"
+        android:layout_height="93dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/u2a2Btmostrar" />
+
+    <SeekBar
+        android:id="@+id/u2a2SbBarra"
+        android:layout_width="244dp"
+        android:layout_height="69dp"
+        android:max="20"
+        android:progress="0"
+        app:layout_constraintBottom_toTopOf="@+id/u2a2Btmostrar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/u2a2Btmostrar"
+        android:layout_width="142dp"
+        android:layout_height="75dp"
+        android:layout_marginBottom="44dp"
+        android:text="Mostrar"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
